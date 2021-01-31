@@ -1,0 +1,28 @@
+{
+  "name": "scriptable-spidertrons",
+  "version": "1.0.0",
+  "description": "Scriptable Spidertrons",
+  "main": "index.js",
+  "scripts": {
+    "build": "node bin/build.js"
+  },
+  "config": {
+    "title": "Scriptable Spidertrons",
+    "factorio_version": "1.1"
+  },
+  "keywords": [],
+  "author": "TGNThump",
+  "license": "MIT",
+  "bugs": "https://github.com/TGNThump/ScriptableSpidertrons/issues",
+  "dependencies": {
+    "@types/factorio": "git+https://github.com/sguest/factorio-types.git"
+  },
+  "devDependencies": {
+    "@actions/core": "^1.2.5",
+    "bestzip": "^2.1.6",
+    "ncp": "2.0.0",
+    "request": "^2.88.2",
+    "typescript-to-lua": "^0.36.0",
+    "web-request": "^1.0.7"
+  }
+}
